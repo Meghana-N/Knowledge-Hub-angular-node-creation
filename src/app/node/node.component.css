@@ -1,18 +1,29 @@
 button
 {
-    background-color: grey;
-    color: rgb(247, 241, 241);
+    background-color: #d4d7db;
+    color: black;
 }
 
-.create-node
-{
-    margin-left : 50px;
+body{
+    height:auto;
+    min-height:100vh;
+    width: 100%;
+    background-image:url(/assets/image.jpg);
+    font-family: sansation;
 }
 .align-fields{
      display: inline-block;    
+}
+.align-field{
+    display: inline;    
 }
 
 .padding{
   margin-left: 14px;
 }
+
+label{
+    color: white;
+}
+
 
